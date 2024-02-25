@@ -18,6 +18,10 @@ SPIClass SPISD(HSPI);
 GyverOLED<SSD1306_128x64, OLED_BUFFER> oled;
 Adafruit_NeoPixel ledRGB(1, 48, NEO_GRB + NEO_KHZ800);
 
+
+
+
+
 int8_t dr = 0;
 int8_t dg = 0;
 int8_t db = 0;
